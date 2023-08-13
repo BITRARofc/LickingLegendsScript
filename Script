@@ -1,0 +1,230 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "LICKING LEGENDS GUI", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "CREATED BY BITRARofc",
+	Content = "Discord: iputthenewforgissonthejeep",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+--Plr
+
+local Plr = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Player = Plr:AddSection({
+	Name = "Player"
+})
+
+Plr:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 500,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end    
+})
+
+Plr:AddButton({
+	Name = "Ctrl + Click Tp",
+	Callback = function()
+        local UIS = game:GetService("UserInputService")
+
+        local Player = game.Players.LocalPlayer
+        local Mouse = Player:GetMouse()
+        
+        
+        function GetCharacter()
+           return game.Players.LocalPlayer.Character
+        end
+        
+        function Teleport(pos)
+           local Char = GetCharacter()
+           if Char then
+               Char:MoveTo(pos)
+           end
+        end
+        
+        
+        UIS.InputBegan:Connect(function(input)
+           if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+               Teleport(Mouse.Hit.p)
+           end
+        end)
+  	end    
+})
+
+--AutoSell
+local AS = Window:MakeTab({
+	Name = "AutoSell",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local AutoSell = AS:AddSection({
+	Name = "Auto Sell"
+})
+
+AS:AddButton({
+	Name = "Auto Sell Licks (It Auto Sell When Ur Backpack Is Full)",
+	Callback = function()
+        while wait() do
+            if game:GetService("Players").LocalPlayer.PlayerGui.Main.Max.Visible == true then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(23.640066146850586, 10.326187133789062, -87.35565948486328)
+            end
+  	    end
+    end
+})
+
+--Eggs
+local Egg = Window:MakeTab({
+	Name = "Eggs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Eggs = Egg:AddSection({
+	Name = "Spawn Eggs (Cust Money Obviously)"
+})
+
+Eggs:AddButton({
+	Name = "Basic",
+	Callback = function()
+        local args = {
+            [1] = "Basic",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Spooky",
+	Callback = function()
+        local args = {
+            [1] = "Spooky",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Aqua",
+	Callback = function()
+        local args = {
+            [1] = "Aqua",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Demonic",
+	Callback = function()
+        local args = {
+            [1] = "Demonic",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Angel",
+	Callback = function()
+        local args = {
+            [1] = "Angel",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Science",
+	Callback = function()
+        local args = {
+            [1] = "Science",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Psychic",
+	Callback = function()
+        local args = {
+            [1] = "Psychic",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Candy",
+	Callback = function()
+        local args = {
+            [1] = "Candy",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Toxic",
+	Callback = function()
+        local args = {
+            [1] = "Toxic",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Mars",
+	Callback = function()
+        local args = {
+            [1] = "Mars",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+Eggs:AddButton({
+	Name = "Medieval",
+	Callback = function()
+        local args = {
+            [1] = "Medieval",
+            [2] = "One"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Egg"):InvokeServer(unpack(args))   
+  	end    
+})
+
+OrionLib:Init()
