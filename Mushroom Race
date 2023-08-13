@@ -1,0 +1,42 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "MUSHROOM RACE SCRIPT", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--values
+_G.autoReb = true
+
+--functions
+function autoReb()
+    while _G.autoReb == true do
+        game:GetService("ReplicatedStorage").GameClient.Events.RemoteEvent.UpdateRebirth:FireServer()
+        wait()
+    end
+end
+
+--MISC TAB
+local MISC = Window:MakeTab({
+	Name = "MISC",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local MISCT = MISC:AddSection({
+	Name = "Misc"
+})
+
+MISC:AddButton({
+	Name = "Free Auto Clicker Gamepass",
+	Callback = function()
+        game:GetService("Players").LocalPlayer.Auto_Clicker.Value = true
+  	end    
+})
+
+MISC:AddToggle({
+	Name = "Auto Rebirth",
+	Default = false,
+	Callback = function(Value)
+		_G.autoReb = Value
+        autoReb()
+	end    
+})
+
+OrionLib:Init()
