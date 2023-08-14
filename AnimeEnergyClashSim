@@ -8,6 +8,60 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
+--Player
+
+local Plr = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Player = Plr:AddSection({
+	Name = "Player"
+})
+
+Plr:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 500,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end    
+})
+
+Plr:AddButton({
+	Name = "Ctrl + Click Tp",
+	Callback = function()
+        local UIS = game:GetService("UserInputService")
+
+        local Player = game.Players.LocalPlayer
+        local Mouse = Player:GetMouse()
+        
+        
+        function GetCharacter()
+           return game.Players.LocalPlayer.Character
+        end
+        
+        function Teleport(pos)
+           local Char = GetCharacter()
+           if Char then
+               Char:MoveTo(pos)
+           end
+        end
+        
+        
+        UIS.InputBegan:Connect(function(input)
+           if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+               Teleport(Mouse.Hit.p)
+           end
+        end)
+  	end    
+})
+
 --Auto Farm
 local af = Window:MakeTab({
 	Name = "Auto Farm",
