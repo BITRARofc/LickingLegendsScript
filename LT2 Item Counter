@@ -1,0 +1,104 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "LUMBER TYCOON 2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "CREATED BY BITRARofc",
+	Content = "Discord: iputthenewforgissonthejeep",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+WoodTable = {"Generic","Oak","Cherry","Fir","Pine","Birch","Walnut","Koa","Volcano","Zombie","Gold","Palm","SnowGlow","Frost","CaveCrawler","LoneCave","Spooky","SpookyNeon"}
+
+local lclplr = game.Players.LocalPlayer
+
+local t = {}
+for _, v in ipairs(game.Players:GetPlayers()) do
+  table.insert(t, v.Name)
+end
+
+--- COUNTER
+local Count = Window:MakeTab({
+	Name = "Item Counter",
+	Icon = "rbxassetid://7733919105",
+	PremiumOnly = false
+})
+
+local countowner = Count:AddSection({
+	Name = "Owner Of the Itens/Woods"
+})
+
+Count:AddDropdown({
+	Name = "Owner Of The Items/Woods",
+	Default = lclplr,
+	Options = t,
+	Callback = function(Value)
+		OwnerNm = game:GetService("Players")[Value]
+	end    
+})
+
+
+local countt = Count:AddSection({
+	Name = "Wood"
+})
+
+Count:AddDropdown({
+	Name = "Woods",
+	Default = nil,
+	Options = WoodTable,
+	Callback = function(Value)
+		Nwood = Value
+	end    
+})
+
+Count:AddButton({
+	Name = "Count",
+	Callback = function()
+        local count = 0
+
+        for i, v in pairs(game.workspace.PlayerModels:GetChildren()) do
+            if v:FindFirstChild("Owner") and v.Owner.Value == OwnerNm and v:FindFirstChild("TreeClass") and v.TreeClass.Value == Nwood then
+                count = count + 1  
+            end
+            end
+            
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = count.." Amount Of Item Selected",
+        Text = count.." Amount Of Item Selected"
+        })
+  	end 
+})
+
+local CountI = Count:AddSection({
+	Name = "Items"
+})
+
+Count:AddTextbox({
+	Name = "Name Of The Item",
+	Default = nil,
+	TextDisappear = false,
+	Callback = function(Item)
+		Nitem = Item
+	end	  
+})
+
+Count:AddButton({
+	Name = "Count",
+	Callback = function()
+        local count = 0
+
+        for i, model in next, workspace.PlayerModels:GetDescendants() do
+            if model:FindFirstChild("Owner") and model.Owner.Value == OwnerNm and model.Name == Nitem then
+                count += 1 
+            end
+        end
+        
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+          Title = count.." Amount Of Item Selected",
+          Text = count.." Amount Of Item Selected"
+        })
+  	end    
+})
+
+
+OrionLib:Init()
