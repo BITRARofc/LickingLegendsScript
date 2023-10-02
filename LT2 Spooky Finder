@@ -49,3 +49,4 @@ Finder:AddButton({
 })
 
 Finder:AddParagraph("Credits","Script Finder = Bark     				             									Script Server Hop = LeoKholYt   													Gui = BITRARofc")
+OrionLib:Init()
