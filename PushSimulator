@@ -1,0 +1,566 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "PUSH SIMULATOR", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "CREATED BY BITRARofc",
+	Content = "Discord: iputthenewforgissonthejeep",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+---Player
+local plyrtab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://7743875962",
+	PremiumOnly = false
+})
+
+local plyer = plyrtab:AddSection({
+	Name = "Player"
+})
+
+plyrtab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 300,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+plyrtab:AddButton({
+	Name = "Ctrl + Click Tp",
+	Callback = function()
+		local UIS = game:GetService("UserInputService")
+
+		local Player = game.Players.LocalPlayer
+		local Mouse = Player:GetMouse()
+		
+		
+		function GetCharacter()
+		   return game.Players.LocalPlayer.Character
+		end
+		
+		function Teleport(pos)
+		   local Char = GetCharacter()
+		   if Char then
+			   Char:MoveTo(pos)
+		   end
+		end
+		
+		
+		UIS.InputBegan:Connect(function(input)
+		   if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+			   Teleport(Mouse.Hit.p)
+		   end
+		end)
+  	end    
+})
+
+
+
+
+---AutoFarm
+local atfarm = Window:MakeTab({
+	Name = "Auto Farm",
+	Icon = "rbxassetid://7743877573",
+	PremiumOnly = false
+})
+
+local autfarm = atfarm:AddSection({
+	Name = "Auto Farm"
+})
+
+atfarm:AddToggle({
+	Name = "Auto Click",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop = true
+			while _G.loop do
+				game:GetService("ReplicatedStorage").Remotes.PowerGain:FireServer()
+				game:GetService("ReplicatedStorage").Remotes.PowerGainAuto:FireServer()
+				wait()
+			end
+		else
+			_G.loop = false
+		end
+	end    
+})
+
+_G.rbrt = true
+
+function rbrt()
+    while _G.rbrt == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):FireServer()
+        wait()
+    end
+end
+
+atfarm:AddToggle({
+	Name = "Auto Rebirth",
+	Default = false,
+	Callback = function(Value)
+		_G.rbrt = Value
+        rbrt()
+	end    
+})
+
+atfarm:AddToggle({
+	Name = "Auto Hatch Auto Delete",
+	Default = false,
+	Callback = function(Value)
+        _G.egg = Value
+        while _G.egg and wait() do
+            local args = {
+                [1] = "Hatch8",
+                [2] = "Basic",
+                [3] = {
+                    ["Chicken"] = true,
+                    ["Pig"] = true,
+                    ["Bull"] = true,
+                    ["Poodle Dog"] = true,
+                    ["Dog"] = true
+                }
+            }
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Hatch"):FireServer(unpack(args))
+        end
+    end
+})
+
+---autofight
+local auf = Window:MakeTab({
+	Name = "Auto Fight",
+	Icon = "rbxassetid://7734056608",
+	PremiumOnly = false
+})
+
+local autofig = auf:AddSection({
+	Name = "Boss"
+})
+
+_G.push = true
+
+function push()
+    while wait() do
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("PushGain"):FireServer()
+        wait()
+    end
+end
+
+auf:AddToggle({
+	Name = "Auto Push (Turn on before auto fight)",
+	Default = false,
+	Callback = function(Value)
+		if _G.push == Value then
+        push()
+		end
+	end    
+})
+
+
+auf:AddToggle({
+	Name = "Daang son",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop2 = true
+			while _G.loop2 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Forest.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop2 = false
+		end
+	end    
+})
+
+auf:AddToggle({
+	Name = "Soul Card",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Beach.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "One Push Man",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Lava.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Pharaoh",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Ancient.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Blizzard Bot",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Icey.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Vapor",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Space.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Poseidon",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Atlantis.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Zeus",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Divine.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "T-Rex",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Dinosaur.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "lilipop",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Candy.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Robocop",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Robotic.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Eagle",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Warrior.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Juveline",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Jungle.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Evil",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Underworld.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+auf:AddToggle({
+	Name = "Pirate King",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.loop3 = true
+			while _G.loop3 do
+				game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Worlds.Pirate.Levels.Level_5.Spawner, 150.373063564300537, "Simulate")
+				wait(5)
+			end
+		else
+			_G.loop3 = false
+		end
+	end
+})
+
+local dungeon = auf:AddSection({
+	Name = "Dungeons"
+})
+
+auf:AddButton({
+	Name = "Auto Complete Dungeon",
+	Callback = function()
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_1.Levels.Level_1.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_1.Levels.Level_2.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_1.Levels.Level_3.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_1.Levels.Level_4.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_1.Levels.Level_5.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_2.Levels.Level_1.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_2.Levels.Level_2.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_2.Levels.Level_3.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_2.Levels.Level_4.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_2.Levels.Level_5.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_3.Levels.Level_1.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_3.Levels.Level_2.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_3.Levels.Level_3.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_3.Levels.Level_4.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_3.Levels.Level_5.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_4.Levels.Level_1.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_4.Levels.Level_2.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_4.Levels.Level_3.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_4.Levels.Level_4.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_4.Levels.Level_5.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_5.Levels.Level_1.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_5.Levels.Level_2.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_5.Levels.Level_3.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_5.Levels.Level_4.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game:GetService("ReplicatedStorage").Remotes.Push:FireServer(workspace.Map.Dungeons.Underworld.Rooms.Room_5.Levels.Level_5.Spawner, 150.373063564300537, "Simulate");
+		wait(7)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-100003.171875, 34.31700134277344, 413.8890075683594)
+  	end
+})
+
+---Teleports
+
+
+local tp = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://7743870505",
+	PremiumOnly = false
+})
+
+local teleport = tp:AddSection({
+	Name = "Misc"
+})
+
+tp:AddButton({
+    Name = "Teleport To Gold Machine",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-46.6876907, 7.55449963, 8.70124912, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end
+})
+
+tp:AddButton({
+    Name = "Teleport To Rainbow Machine",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3417.23096, 2554.78931, -11.215847, -2.95639038e-05, 0.27556926, -0.9612813, 1, 2.95042992e-05, -2.22623348e-05, 2.22623348e-05, -0.9612813, -0.27556932)
+    end
+})
+
+tp:AddButton({
+    Name = "Dungeons Portal",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25045.9102, 19994.3789, -11398.6387, 0.965932846, -0.018096216, 0.258159429, 3.64584848e-05, 0.997561753, 0.06978973, -0.258792907, -0.0674027726, 0.963578284)
+    end
+})
+
+---misc
+local mc = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://7743873212",
+	PremiumOnly = false
+})
+
+local misc = mc:AddSection({
+	Name = "Misc"
+})
+
+mc:AddButton({
+	Name = "Claim all Playtime Rewards",
+	Callback = function()
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_1");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_2");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_3");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_4");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_5");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_6");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_7");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_8");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_9");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_10");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_11");
+        game:GetService("ReplicatedStorage").Remotes.PlaytimeRewards:FireServer("Gift_12")
+  	end
+})
+
+mc:AddButton({
+	Name = "Claim Spins",
+	Callback = function()
+        game:GetService("ReplicatedStorage").Remotes.Spins:FireServer()
+  	end
+})
+
+mc:AddButton({
+	Name = "Use All Codes (ONE PER ACC)",
+	Callback = function()
+        game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("HAPPY900K");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("20MVisits");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("800kMEMBERS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("LotsOfSpins!");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("LotsOfTokens!");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("5FreeTokens!");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("5FreeSpins!");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("700kMEMBERS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("600kMEMBERS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("Get5Tokens!");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("Get5Spins!");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("500kMEMBERS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("400kMEMBERS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("MarineWorld");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("10MVisits");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("250kMEMBERS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("TurboByte");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("10kLIKESS");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("Mauo");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("Carot");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("2MVisitsO");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("3MVisitsO ");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("1MVisitsO ");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("FIRSTUPDATE");
+		game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer("PUSH")
+  	end
+})
