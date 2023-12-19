@@ -1,6 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Finder", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
+local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+
 function find()
     local Tree
 
@@ -53,3 +55,10 @@ Tab:AddButton({
             loadstring(game:HttpGet("https://bit.ly/3x90l99"))("TOADS")
   	end    
 })
+
+Tab:AddButton({
+	Name = "Server Hop",
+	Callback = function()
+		module:Teleport(game.PlaceId)
+  	end    
+}
