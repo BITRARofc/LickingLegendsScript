@@ -1,0 +1,22 @@
+items23 = {}
+table42 = {}
+
+for i,v in pairs(game:GetService("Workspace").PlayerModels:GetDescendants()) do
+	if v.Name == "ItemName" and v.Parent:FindFirstChild("Owner") and v.Parent.Owner.Value == game.Players.AccBuildBaseBTR then
+			if not table.find(items23,v.Value) then
+			table.insert(items23,v.Value)
+
+	end --game:GetService("Workspace").PlayerModels.Plank.TreeClass
+
+elseif v.Name == "PurchasedBoxItemName" and v.Parent:FindFirstChild("Owner") and v.Parent.Owner.Value == game.Players.AccBuildBaseBTR then
+				if not table.find(items23,v.Value) then
+				table.insert(items23,v.Value)
+			end
+
+		elseif v.Name == "TreeClass" and v.Parent:FindFirstChild("Owner") and v.Parent.Owner.Value == game.Players.AccBuildBaseBTR then
+			if not table.find(items23,v.Value) then
+			table.insert(items23,v.Value)
+		end
+			end
+		end
+
