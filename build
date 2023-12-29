@@ -1,0 +1,2487 @@
+_G.Code = "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"	    
+	    _G.Build = [[	    function FirB()
+	    	    end
+	    	    function BirchB()
+	    	    end
+	    	    function CherryB()
+	    	    end
+	    	    function WalnutB()
+	    	    end
+	    	    function GenericB()
+	    	    end
+	    	    function OakB()
+	    	    end
+	    	    function PineB()
+	    	    end
+	    	    function PalmB()
+	    	    end
+	    	    function KoaB()
+	    	    end
+	    	    function VolcanoB()
+	    	    end
+	    	    function GreenSwampyB()
+	    	    end
+	    	    function GoldSwampyB()
+	    	    end
+	    	    function SnowGlowB()
+	    	    end
+	    	    function FrostB()
+	    	    end
+	    	    function CaveCrawlerB()
+	    	    end
+	    	    function LoneCaveB()
+	    	    end
+	    	    function SpookyB()
+	    	    end
+	    	    function SpookyNeonB()
+	    	    end
+	    	    function BlueSpruceB()
+	    	    end
+	    	    
+	    	    function GlassPane1B()
+	    	    end
+	    	    function GlassPane2B()
+	    	    end
+	    	    function GlassPane3B()
+	    Shs('GlassPane3',Tag*Ang(0, 1.5707963705062866, 0) + Vec(20.5, 7.200232028961182, 5.000091552734375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(0, 1.5707963705062866, 0) + Vec(20.5, 7.200232028961182, 3.000091552734375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(-9.00006103515625, 7.20023775100708, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(-11.00006103515625, 7.20023775100708, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(0.99993896484375, 7.20023775100708, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(2.99993896484375, 7.20023775100708, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(0.99993896484375, 7.400237560272217, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(0.99993896484375, 7.400237560272217, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-3.1415927410125732, 0, -3.1415927410125732) + Vec(2.99993896484375, 7.400237560272217, -12.49993896484375))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-0, 0, -0) + Vec(6, 7.400231838226318, 12.5))	Wait(1)
+	
+	Shs('GlassPane3',Tag*Ang(-0, 0, -0) + Vec(4, 7.400231838226318, 12.5))	Wait(1)
+	
+		    end
+	    	    function GlassPane4B()
+	    	    end
+	    	    function GlassDoorB()
+	    	    end
+	    	    function Sawmill1B()
+	    	    end
+	    	    function Sawmill2B()
+	    	    end
+	    	    function Sawmill3B()
+	    	    end
+	    	    function Sawmill4B()
+	    	    end
+	    	    function Sawmill5B()
+	    	    end
+	    	    function Painting1B()
+	    	    end
+	    	    function Painting2B()
+	    	    end
+	    	    function Painting3B()
+	    Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-6.0999755859375, 8.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-9.899993896484375, 8.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-7.899993896484375, 8.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-6.0999755859375, 6.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-9.899993896484375, 6.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-7.899993896484375, 6.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-7.899993896484375, 4.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-9.899993896484375, 4.400237083435059, 11.500045776367188))	Wait(1)
+	
+	Shs('Painting3',Tag*Ang(-0, 0, -0) + Vec(-6.0999755859375, 4.400237083435059, 11.500045776367188))	Wait(1)
+	
+		    end
+	    	    function Painting4B()
+	    	    end
+	    	    function Painting5B()
+	    	    end
+	    	    function Painting6B()
+	    Shs('Painting6',Tag*Ang(-1.5707963705062866, -1.5707963705062866, 0) + Vec(-8.902008056640625, 6.13720703125, 11.71746826171875))	Wait(1)
+	
+	Shs('Painting6',Tag*Ang(-1.5707963705062866, -1.5707963705062866, 0) + Vec(-7.10198974609375, 6.13720703125, 11.717529296875))	Wait(1)
+	
+		    end
+	    	    function Painting7B()
+	    	    end
+	    	    function Painting8B()
+	    	    end
+	    	    function Painting9B()
+	    	    end
+	    	    function Painting10B()
+	    	    end
+	    	    function Painting11B()
+	    Shs('Painting11',Tag*Ang(3.141592502593994, -4.371138828673793e-08, -0) + Vec(-9, 2.400238037109375, 15.00006103515625))	Wait(1)
+	
+	Shs('Painting11',Tag*Ang(3.141592502593994, -4.371138828673793e-08, -0) + Vec(-7, 2.400238037109375, 15))	Wait(1)
+	
+		    end
+	    	    function Painting12B()
+	    	    end
+	    	    function Lamp1B()
+	    	    end
+	    	    function FloorLamp1B()
+	    	    end
+	    	    function WallLight1B()
+	    	    end
+	    	    function WallLight2B()
+	    	    end
+	    	    function CouchB()
+	    	    end
+	    	    function Chair1B()
+	    	    end
+	    	    function Chair2B()
+	    	    end
+	    	    function Bed1B()
+	    	    end
+	    	    function Bed2B()
+	    	    end
+	    	    function ToiletB()
+	    	    end
+	    	    function ToiletGoldB()
+	    	    end
+	    	    function StoveB()
+	    	    end
+	    	    function DishwasherB()
+	    	    end
+	    	    function fridgeB()
+	    	    end
+	    	    function StraightConveyorB()
+	    	    end
+	    	    function TightTurnConveyorB()
+	    	    end
+	    	    function TiltConveyorB()
+	    	    end
+	    	    function ConveyorFunnelB()
+	    	    end
+	    	    function ConveyorSwitchB()
+	    	    end
+	    	    function LogSweeperB()
+	    	    end
+	    	    function StraightSwitchConveyorRightB()
+	    	    end
+	    	    function StraightSwitchConveyorLeftB()
+	    	    end
+	    	    function Pickup1B()
+	    	    end
+	    	    function UtilityTruck2B()
+	    	    end
+	    	    function UtilityTruckB()
+	    	    end
+	    	    function Trailer2B()
+	    	    end
+	    	    function SleighB()
+	    	    end
+	    	    function SnowmobileB()
+	    	    end
+	    	    function SmallTrailerB()
+	    	    end
+	    	    function ChopSawB()
+	    	    end
+	    	    function FireworkLauncherB()
+	    	    end
+	    	    function WoodCheckerB()
+	    	    end
+	    	    function LaserB()
+	    	    end
+	    	    function LaserReceiverB()
+	    	    end
+	    	    function GateNOTB()
+	    Shs('GateNOT',Tag*Ang(1.5707963705062866, 0, -0) + Vec(-5.899993896484375, 7.100240230560303, 11.500030517578125))	Wait(1)
+	
+		    end
+	    	    function GateORB()
+	    	    end
+	    	    function GateANDB()
+	    	    end
+	    	    function GateXORB()
+	    	    end
+	    	    function SignalSustainB()
+	    	    end
+	    	    function SignalDelayB()
+	    	    end
+	    	    function ClockSwitchB()
+	    	    end
+	    	    function PressurePlateB()
+	    	    end
+	    	    function HatchB()
+	    	    end
+	    	    function Lever0B()
+	    	    end
+	    	    function Button0B()
+	    	    end
+	    	    local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
+	    local Notify = NotifyLibrary.Notify
+	    function Noti(a, b, c)
+	    NotifyLibrary.Notify({
+	    Title = a,
+	    Description = b,
+	    Duration = c
+	    })
+	    end
+	   	local FirPlanksBase = 0
+	local BirchPlanksBase = 0
+	local CherryPlanksBase = 0
+	local WalnutPlanksBase = 0
+	local GenericPlanksBase = 0
+	local OakPlanksBase = 0
+	local PinePlanksBase = 0
+	local PalmPlanksBase = 0
+	local KoaPlanksBase = 0
+	local VolcanoPlanksBase = 0
+	local GreenSwampyPlanksBase = 0
+	local GoldSwampyPlanksBase = 0
+	local SnowGlowPlanksBase = 0
+	local FrostPlanksBase = 0
+	local CaveCrawlerPlanksBase = 0
+	local LoneCavePlanksBase = 0
+	local SpookyPlanksBase = 0
+	local SpookyNeonPlanksBase = 0
+	local BlueSprucePlanksBase = 0
+	local GlassPane1Base = 0
+	local GlassPane2Base = 0
+	local GlassPane3Base = 0
+	local GlassPane4Base = 0
+	local GlassDoor1Base = 0
+	local Sawmill1Base = 0
+	local Sawmill2Base = 0
+	local Sawmill3Base = 0
+	local Sawmill4Base = 0
+	local Sawmill5Base = 0
+	local Painting1Base = 0
+	local Painting2Base = 0
+	local Painting3Base = 0
+	local Painting4Base = 0
+	local Painting5Base = 0
+	local Painting6Base = 0
+	local Painting7Base = 0
+	local Painting8Base = 0
+	local Painting9Base = 0
+	local Painting10Base = 0
+	local Painting11Base = 0
+	local Painting12Base = 0
+	local Lamp1Base = 0
+	local FloorLamp1Base = 0
+	local WallLight1Base = 0
+	local WallLight2Base = 0
+	local CouchBase = 0
+	local Chair1Base = 0
+	local Chair2Base = 0
+	local Bed1Base = 0
+	local Bed2Base = 0
+	local ToiletBase = 0
+	local ToiletGoldBase = 0
+	local StoveBase = 0
+	local DishwasherBase = 0
+	local FridgeBase = 0
+	local StraightConveyorBase = 0
+	local TightTurnConveyorBase = 0
+	local TiltConveyorBase = 0
+	local ConveyorFunnelBase = 0
+	local ConveyorSwitchBase = 0
+	local LogSweeperBase = 0
+	local StraightSwitchConveyorRightBase = 0
+	local StraightSwitchConveyorLeftBase = 0
+	local Pickup1Base = 0
+	local UtilityTruck2Base = 0
+	local UtilityTruckBase = 0
+	local Trailer2Base = 0
+	local SleighBase = 0
+	local SnowmobileBase = 0
+	local SmallTrailerBase = 0
+	local ChopSawBase = 0
+	local FireworkLauncherBase = 0
+	local WoodCheckerBase = 0
+	local LaserBase = 0
+	local LaserReceiverBase = 0
+	local GateNOTBase = 0
+	local GateORBase = 0
+	local GateANDBase = 0
+	local GateXORBase = 0
+	local SignalSustainBase = 0
+	local SignalDelayBase = 0
+	local ClockSwitchBase = 0
+	local PressurePlateBase = 0
+	local HatchBase = 0
+	local Lever0Base = 0
+	local Button0Base = 0
+	
+	
+	function reset()
+		FirPlanksBase = 0
+		BirchPlanksBase = 0
+		CherryPlanksBase = 0
+		WalnutPlanksBase = 0
+		GenericPlanksBase = 0
+		OakPlanksBase = 0
+		PinePlanksBase = 0
+		PalmPlanksBase = 0
+		KoaPlanksBase = 0
+		VolcanoPlanksBase = 0
+		GreenSwampyPlanksBase = 0
+		GoldSwampyPlanksBase = 0
+		SnowGlowPlanksBase = 0
+		FrostPlanksBase = 0
+		CaveCrawlerPlanksBase = 0
+		LoneCavePlanksBase = 0
+		SpookyPlanksBase = 0
+		SpookyNeonPlanksBase = 0
+		BlueSprucePlanksBase = 0
+		GlassPane1Base = 0
+		GlassPane2Base = 0
+		GlassPane3Base = 0
+		GlassPane4Base = 0
+		GlassDoor1Base = 0
+		Sawmill1Base = 0
+		Sawmill2Base = 0
+		Sawmill3Base = 0
+		Sawmill4Base = 0
+		Sawmill5Base = 0
+		Painting1Base = 0
+		Painting2Base = 0
+		Painting3Base = 0
+		Painting4Base = 0
+		Painting5Base = 0
+		Painting6Base = 0
+		Painting7Base = 0
+		Painting8Base = 0
+		Painting9Base = 0
+		Painting10Base = 0
+		Painting11Base = 0
+		Painting12Base = 0
+		Lamp1Base = 0
+		FloorLamp1Base = 0
+		WallLight1Base = 0
+		WallLight2Base = 0
+		CouchBase = 0
+		Chair1Base = 0
+		Chair2Base = 0
+		Bed1Base = 0
+		Bed2Base = 0
+		ToiletBase = 0
+		ToiletGoldBase = 0
+		StoveBase = 0
+		DishwasherBase = 0
+		FridgeBase = 0
+		StraightConveyorBase = 0
+		TightTurnConveyorBase = 0
+		TiltConveyorBase = 0
+		ConveyorFunnelBase = 0
+		ConveyorSwitchBase = 0
+		LogSweeperBase = 0
+		StraightSwitchConveyorRightBase = 0
+		StraightSwitchConveyorLeftBase = 0
+		Pickup1Base = 0
+		UtilityTruck2Base = 0
+		UtilityTruckBase = 0
+		Trailer2Base = 0
+		SleighBase = 0
+		SnowmobileBase = 0
+		SmallTrailerBase = 0
+		ChopSawBase = 0
+		FireworkLauncherBase = 0
+		WoodCheckerBase = 0
+		LaserBase = 0
+		LaserReceiverBase = 0
+		GateNOTBase = 0
+		GateORBase = 0
+		GateANDBase = 0
+		GateXORBase = 0
+		SignalSustainBase = 0
+		SignalDelayBase = 0
+		ClockSwitchBase = 0
+		PressurePlateBase = 0
+		HatchBase = 0
+		Lever0Base = 0
+		Button0Base = 0
+		end
+	            
+		function ItemCounter2()
+			reset()
+			for _, v in next, workspace.PlayerModels:GetChildren() do
+			if v:FindFirstChild("Owner", 20) then
+			if v.Owner.Value == game.Players[WoodBase] then
+	
+			if v.ItemName.Value == "StraightConveyor" then
+				StraightConveyorBase = StraightConveyorBase + 1
+			end
+			
+			if v.ItemName.Value == "TightTurnConveyor" then
+				TightTurnConveyorBase = TightTurnConveyorBase + 1
+			end
+			
+			if v.ItemName.Value == "TiltConveyor" then
+				TiltConveyorBase = TiltConveyorBase + 1
+			end
+			
+			if v.ItemName.Value == "ConveyorFunnel" then
+				ConveyorFunnelBase = ConveyorFunnelBase + 1
+			end
+			
+			if v.ItemName.Value == "ConveyorSwitch" then
+				ConveyorSwitchBase = ConveyorSwitchBase + 1
+			end
+				
+			if v.ItemName.Value == "LogSweeper" then
+				LogSweeperBase = LogSweeperBase + 1
+			end
+			
+			if v.ItemName.Value == "StraightSwitchConveyorRight" then
+				StraightSwitchConveyorRightBase = StraightSwitchConveyorRightBase + 1
+			end
+			
+			if v.ItemName.Value == "StraightSwitchConveyorLeft" then
+				StraightSwitchConveyorLeftBase = StraightSwitchConveyorLeftBase + 1
+			end
+			
+			if v.ItemName.Value == "Pickup1" then
+				Pickup1Base = Pickup1Base + 1
+			end
+			
+			if v.ItemName.Value == "UtilityTruck2" then
+				UtilityTruck2Base = UtilityTruck2Base + 1
+			end
+			
+			if v.ItemName.Value == "UtilityTruck" then
+				UtilityTruckBase = UtilityTruckBase + 1
+			end
+			
+			if v.ItemName.Value == "Trailer2" then
+				Trailer2Base = Trailer2Base + 1
+			end
+				
+			if v.ItemName.Value == "Sleigh" then
+				SleighBase = SleighBase + 1
+			end
+			
+			if v.ItemName.Value == "Snowmobile" then
+				SnowmobileBase = SnowmobileBase + 1
+			end
+			
+			if v.ItemName.Value == "SmallTrailer" then
+				SmallTrailerBase = SmallTrailerBase + 1
+			end
+			
+			if v.ItemName.Value == "ChopSaw" then
+				ChopSawBase = ChopSawBase + 1
+			end
+			
+			if v.ItemName.Value == "FireworkLauncher" then
+				FireworkLauncherBase = FireworkLauncherBase + 1
+			end
+			
+			if v.ItemName.Value == "WoodChecker" then
+				WoodCheckerBase = WoodCheckerBase + 1
+			end
+			
+			if v.ItemName.Value == "Laser" then
+				LaserBase = LaserBase + 1
+			end
+				
+			if v.ItemName.Value == "LaserReceiver" then
+				LaserReceiverBase = LaserReceiverBase + 1
+			end
+			
+			if v.ItemName.Value == "GateNOT" then
+				GateNOTBase = GateNOTBase + 1
+			end
+			
+			if v.ItemName.Value == "GateOR" then
+				GateORBase = GateORBase + 1
+			end
+			
+			if v.ItemName.Value == "GateAND" then
+				GateANDBase = GateANDBase + 1
+			end
+			
+			if v.ItemName.Value == "GateXOR" then
+				GateXORBase = GateXORBase + 1
+			end
+			
+			if v.ItemName.Value == "SignalSustain" then
+				SignalSustainBase = SignalSustainBase + 1
+			end
+			
+			if v.ItemName.Value == "SignalDelay" then
+				SignalDelayBase = SignalDelayBase + 1
+			end
+			
+			if v.ItemName.Value == "ClockSwitch" then
+				ClockSwitchBase = ClockSwitchBase + 1
+			end
+			
+			if v.ItemName.Value == "PressurePlate" then
+				PressurePlateBase = PressurePlateBase + 1
+			end
+			
+			if v.ItemName.Value == "Hatch" then
+				HatchBase = HatchBase + 1
+			end
+			
+			if v.ItemName.Value == "Lever0" then
+				Lever0Base = Lever0Base + 1
+			end
+			
+			if v.ItemName.Value == "Button0" then
+				Button0Base = Button0Base + 1
+			end 
+		
+			end
+			end
+			end
+		end
+					
+		function ItemChecker()
+		reset()
+		for i, v in next, workspace.PlayerModels:GetChildren() do
+		if string.find(v.Name, "Plank") then
+		if v:FindFirstChild("Owner") then
+		if v.Owner.Value == game.Players[WoodBase] then
+		
+		if v.TreeClass.Value == "Fir" then
+		FirPlanksBase = FirPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Birch" then
+		BirchPlanksBase = BirchPlanksBase + 1
+		end
+			
+		if v.TreeClass.Value == "Cherry" then
+		CherryPlanksBase = CherryPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Walnut" then
+		WalnutPlanksBase = WalnutPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Generic" then
+		GenericPlanksBase = GenericPlanksBase + 1
+		end
+			
+		if v.TreeClass.Value == "Oak" then
+		OakPlanksBase = OakPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Pine" then
+		PinePlanksBase = PinePlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Palm" then
+		PalmPlanksBase = PalmPlanksBase + 1
+		end
+			
+		if v.TreeClass.Value == "Koa" then
+		KoaPlanksBase = KoaPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Volcano" then
+		VolcanoPlanksBase = VolcanoPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "GreenSwampy" then
+		GreenSwampyPlanksBase = GreenSwampyPlanksBase + 1
+		end
+			
+		if v.TreeClass.Value == "GoldSwampy" then
+		GoldSwampyPlanksBase = GoldSwampyPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "SnowGlow" then
+		SnowGlowPlanksBase = SnowGlowPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Frost" then
+		FrostPlanksBase = FrostPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "CaveCrawler" then
+		CaveCrawlerPlanksBase = CaveCrawlerPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "LoneCave" then
+		LoneCavePlanksBase = LoneCavePlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "Spooky" then
+		SpookyPlanksBase = SpookyPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "SpookyNeon" then
+		SpookyNeonPlanksBase = SpookyNeonPlanksBase + 1
+		end
+		
+		if v.TreeClass.Value == "BlueSpruce" then
+		BlueSprucePlanksBase = BlueSprucePlanksBase + 1
+		end
+				
+		end
+		end
+		end
+		end
+		
+		for _, u in next, workspace.PlayerModels:GetChildren() do
+		if u:FindFirstChild("Owner") then
+		if u.Owner.Value == game.Players[WoodBase] then
+		
+		if u.ItemName.Value == "GlassPane1" then
+		GlassPane1Base = GlassPane1Base + 1
+		end
+		
+		if u.ItemName.Value == "GlassPane2" then
+		GlassPane2Base = GlassPane2Base + 1
+		end
+		
+		if u.ItemName.Value == "GlassPane3" then
+		GlassPane3Base = GlassPane3Base + 1
+		end
+		
+		if u.ItemName.Value == "GlassPane4" then
+		GlassPane4Base = GlassPane4Base + 1
+		end
+		
+		if u.ItemName.Value == "GlassDoor1" then
+		GlassDoor1Base = GlassDoor1Base + 1
+		end
+		
+		if u.ItemName.Value == "Sawmill" then
+		Sawmill1Base = Sawmill1Base + 1
+		end
+			
+		if u.ItemName.Value == "Sawmill2" then
+		Sawmill2Base = Sawmill2Base + 1
+		end
+		
+		if u.ItemName.Value == "Sawmill3" then
+		Sawmill3Base = Sawmill3Base + 1
+		end
+		
+		if u.ItemName.Value == "Sawmill4" then
+		Sawmill4Base = Sawmill4Base + 1
+		end
+		
+		if u.ItemName.Value == "Sawmill4L" then
+		Sawmill5Base = Sawmill5Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting1" then
+		Painting1Base = Painting1Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting2" then
+		Painting2Base = Painting2Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting3" then
+		Painting3Base = Painting3Base + 1
+		end
+			
+		if u.ItemName.Value == "Painting4" then
+		Painting4Base = Painting4Base + 1
+		end
+	
+		if u.ItemName.Value == "Painting5" then
+		Painting5Base = Painting5Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting6" then
+		Painting6Base = Painting6Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting7" then
+		Painting7Base = Painting7Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting8" then
+		Painting8Base = Painting8Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting9" then
+			Painting9Base = Painting9Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting10" then
+			Painting10Base = Painting10Base + 1
+		end
+			
+		if u.ItemName.Value == "Painting11" then
+			Painting11Base = Painting11Base + 1
+		end
+		
+		if u.ItemName.Value == "Painting12" then
+			Painting12Base = Painting12Base + 1
+		end
+		
+		if u.ItemName.Value == "Lamp1" then
+			Lamp1Base = Lamp1Base + 1
+		end
+		
+		if u.ItemName.Value == "FloorLamp1" then
+			FloorLamp1Base = FloorLamp1Base + 1
+		end
+		
+		if u.ItemName.Value == "WallLight1" then
+			WallLight1Base = WallLight1Base + 1
+		end
+		
+		if u.ItemName.Value == "WallLight2" then
+			WallLight2Base = WallLight2Base + 1
+		end
+		
+		if u.ItemName.Value == "Seat_Couch" then
+			CouchBase = CouchBase + 1
+		end
+			
+		if u.ItemName.Value == "Seat_Chair1" then
+			Chair1Base = Chair1Base + 1
+		end
+	
+		if u.ItemName.Value == "Seat_Chair2" then
+			Chair2Base = Chair2Base + 1
+		end
+		
+		if u.ItemName.Value == "Bed1" then
+			Bed1Base = Bed1Base + 1
+		end
+		
+		if u.ItemName.Value == "Bed2" then
+			Bed2Base = Bed2Base + 1
+		end
+		
+		if u.ItemName.Value == "Toilet" then
+			ToiletBase = ToiletBase + 1
+		end
+		
+		if u.ItemName.Value == "ToiletGold" then
+			ToiletGoldBase = ToiletGoldBase + 1
+		end
+		
+		if u.ItemName.Value == "Stove" then
+			StoveBase = StoveBase + 1
+		end
+			
+		if u.ItemName.Value == "Dishwasher" then
+			DishwasherBase = DishwasherBase + 1
+		end
+		
+		if u.ItemName.Value == "Refridgerator" then
+			FridgeBase = FridgeBase + 1
+		end
+		
+		end
+		end
+		end
+		end
+	
+	
+	local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/666TranZit666/rewrite/main/Dazed%20Lib")()
+	    
+	local win = DiscordLib:Window("Auto Build GUI")
+	
+	local ABCredits = win:Server("Credits", "rbxassetid://6035145364")
+	
+	local Credits = ABCredits:Channel("Credits")
+	
+	Credits:Button(
+	"Credits: Skripter: dazed.and_confused",
+	function()
+	DiscordLib:Notification("Notification", "Discord: dazed.and_confused", "Okay!")
+	end)
+	
+	Credits:Seperator()
+	
+	Credits:Button(
+	"Credits: Idea: ihateschool",
+	function()
+	DiscordLib:Notification("Notification", "Discord: ihateschool", "Okay!")
+	end)
+	
+	local ABInfo = win:Server("INFO", "rbxassetid://6035145364")
+	
+	local Info = ABInfo:Channel("INFO")
+	
+	Info:Label("To Auto Build You Must\nOwn ALL Blueprints And Have Enough Wood")
+	
+	Info:Label("The Power Of Ease Is Also\nVERY MUCH RECOMMENDED To Build")
+	
+	Info:Label("Before Starting The Auto Build Scroll Down To The Bottom\nAnd Select A Wood Base Then Click Load Wood Counter")
+	
+	local ABFir = win:Server("Fir", "rbxassetid://13612122238")
+	
+	local Fir = ABFir:Channel("Fir")
+	
+	Fir:Button(
+	"AutoBuild Fir",
+	function()
+	FirB()
+	Noti("Auto Build", "Done Building With Fir", 25)
+	end
+	)
+	
+	Fir:Label("Planks Need For This Build: "..FirC)
+	
+	Fir:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..FirPlanksBase.." Fir Planks", 25)  
+	end)
+	
+	local ABBirch = win:Server("Birch", "rbxassetid://13612129258")
+	
+	local Birch = ABBirch:Channel("Birch")
+	
+	Birch:Button(
+	"AutoBuild Birch",
+	function()
+	BirchB()
+	Noti("Auto Build", "Done Building With Birch", 25)
+	end
+	)
+	
+	Birch:Label("Planks Need For This Build: "..BirchC)
+	
+	Birch:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..BirchPlanksBase.." Birch Planks", 25)  
+	end)
+	
+	local ABCherry = win:Server("Cherry", "rbxassetid://13612126588")
+	
+	local Cherry = ABCherry:Channel("Cherry")
+	
+	Cherry:Button(
+	"AutoBuild Cherry",
+	function()
+	CherryB()
+	Noti("Auto Build", "Done Building With Cherry", 25)
+	end
+	)
+	
+	Cherry:Label("Planks Need For This Build: "..CherryC)
+	
+	Cherry:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..CherryPlanksBase.." Cherry Planks", 25)  
+	end)
+	
+	local ABWalnut = win:Server("Walnut", "rbxassetid://13612105819")
+	
+	local Walnut = ABWalnut:Channel("Walnut")
+	
+	Walnut:Button(
+	"AutoBuild Walnut",
+	function()
+	WalnutB()
+	Noti("Auto Build", "Done Building With Walnut", 25)
+	end
+	)
+	
+	Walnut:Label("Planks Need For This Build: "..WalnutC)
+	
+	Walnut:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..WalnutPlanksBase.." Walnut Planks", 25)  
+	end)
+	
+	local ABGeneric = win:Server("Generic", "rbxassetid://13612116149")
+	
+	local Generic = ABGeneric:Channel("Generic")
+	
+	Generic:Button(
+	"AutoBuild Generic",
+	function()
+	GenericB()
+	Noti("Auto Build", "Done Building With Generic", 25)
+	end
+	)
+	
+	Generic:Label("Planks Need For This Build: "..GenericC)
+	
+	Generic:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..GenericPlanksBase.." Generic Planks", 25)  
+	end)
+	
+	local ABOak = win:Server("Oak", "rbxassetid://13612123108")
+	
+	local Oak = ABOak:Channel("Oak")
+	
+	Oak:Button(
+	"AutoBuild Oak",
+	function()
+	OakB()
+	Noti("Auto Build", "Done Building With Oak", 25)
+	end
+	)
+	
+	Oak:Label("Planks Need For This Build: "..OakC)
+	
+	Oak:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..OakPlanksBase.." Oak Planks", 25)  
+	end)
+	
+	local ABPine = win:Server("Pine", "rbxassetid://13612112499")
+	
+	local Pine = ABPine:Channel("Pine")
+	
+	Pine:Button(
+	"AutoBuild Pine",
+	function()
+	PineB()
+	Noti("Auto Build", "Done Building With Pine", 25)
+	end
+	)
+	
+	Pine:Label("Planks Need For This Build: "..PineC)
+	
+	Pine:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..PinePlanksBase.." Pine Planks", 25)  
+	end)
+	
+	local ABPalm = win:Server("Palm", "rbxassetid://13612115039")
+	
+	local Palm = ABPalm:Channel("Palm")
+	
+	Palm:Button(
+	"AutoBuild Palm",
+	function()
+	PalmB()
+	Noti("Auto Build", "Done Building With Palm", 25)
+	end
+	)
+	
+	Palm:Label("Planks Need For This Build: "..PalmC)
+	
+	Palm:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..PalmPlanksBase.." Palm Planks", 25)  
+	end)
+	
+	local ABKoa = win:Server("Koa", "rbxassetid://13612118027")
+	
+	local Koa = ABKoa:Channel("Koa")
+	
+	Koa:Button(
+	"AutoBuild Koa",
+	function()
+	KoaB()
+	Noti("Auto Build", "Done Building With Koa", 25)
+	end
+	)
+	
+	Koa:Label("Planks Need For This Build: "..KoaC)
+	
+	Koa:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..KoaPlanksBase.." Koa Planks", 25)  
+	end)
+	
+	local ABVolcano = win:Server("Volcano", "rbxassetid://13612117216")
+	
+	local Volcano = ABVolcano:Channel("Volcano")
+	
+	Volcano:Button(
+	"AutoBuild Volcano",
+	function()
+	VolcanoB()
+	Noti("Auto Build", "Done Building With Volcano", 25)
+	end
+	)
+	
+	Volcano:Label("Planks Need For This Build: "..VolcanoC)
+	
+	Volcano:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..VolcanoPlanksBase.." Volcano Planks", 25)  
+	end)
+	
+	local ABGreenSwampy = win:Server("GreenSwampy", "rbxassetid://13612104843")
+	
+	local GreenSwampy = ABGreenSwampy:Channel("GreenSwampy")
+	
+	GreenSwampy:Button(
+	"AutoBuild GreenSwampy",
+	function()
+	GreenSwampyB()
+	Noti("Auto Build", "Done Building With GreenSwampy", 25)
+	end
+	)
+	
+	GreenSwampy:Label("Planks Need For This Build: "..GreenSwampyC)
+	
+	GreenSwampy:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..GreenSwampyPlanksBase.." GreenSwampy Planks", 25)  
+	end)
+	
+	local ABGoldSwampy = win:Server("GoldSwampy", "rbxassetid://13612118685")
+	
+	local GoldSwampy = ABGoldSwampy:Channel("GoldSwampy")
+	
+	GoldSwampy:Button(
+	"AutoBuild GoldSwampy",
+	function()
+	GoldSwampyB()
+	Noti("Auto Build", "Done Building With GoldSwampy", 25)
+	end
+	)
+	
+	GoldSwampy:Label("Planks Need For This Build: "..GoldSwampyC)
+	
+	GoldSwampy:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..GoldSwampyPlanksBase.." GoldSwampy Planks", 25)  
+	end)
+	
+	local ABSnowGlow = win:Server("SnowGlow", "rbxassetid://13612110685")
+	
+	local SnowGlow = ABSnowGlow:Channel("SnowGlow")
+	
+	SnowGlow:Button(
+	"AutoBuild SnowGlow",
+	function()
+	SnowGlowB()
+	Noti("Auto Build", "Done Building With SnowGlow", 25)
+	end
+	)
+	
+	SnowGlow:Label("Planks Need For This Build: "..SnowGlowC)
+	
+	SnowGlow:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..SnowGlowPlanksBase.." SnowGlow Planks", 25)  
+	end)
+	
+	local ABFrost = win:Server("Frost", "rbxassetid://13612119504")
+	
+	local Frost = ABFrost:Channel("Frost")
+	
+	Frost:Button(
+	"AutoBuild Frost",
+	function()
+	FrostB()
+	Noti("Auto Build", "Done Building With Frost", 25)
+	end
+	)
+	
+	Frost:Label("Planks Need For This Build: "..FrostC)
+	
+	Frost:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..FrostPlanksBase.." Frost Planks", 25)  
+	end)
+	
+	local ABCaveCrawler = win:Server("CaveCrawler", "rbxassetid://13612127171")
+	
+	local CaveCrawler = ABCaveCrawler:Channel("CaveCrawler")
+	
+	CaveCrawler:Button(
+	"AutoBuild CaveCrawler",
+	function()
+	CaveCrawlerB()
+	Noti("Auto Build", "Done Building With CaveCrawler", 25)
+	end
+	)
+	
+	CaveCrawler:Label("Planks Need For This Build: "..CaveCrawlerC)
+	
+	CaveCrawler:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..CaveCrawlerPlanksBase.." CaveCrawler Planks", 25)  
+	end)
+	
+	local ABLoneCave = win:Server("LoneCave", "rbxassetid://13612113132")
+	
+	local LoneCave = ABLoneCave:Channel("LoneCave")
+	
+	LoneCave:Button(
+	"AutoBuild LoneCave",
+	function()
+	LoneCaveB()
+	Noti("Auto Build", "Done Building With LoneCave", 25)
+	end
+	)
+	
+	LoneCave:Label("Planks Need For This Build: "..LoneCaveC)
+	
+	LoneCave:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..LoneCavePlanksBase.." LoneCave Planks", 25)  
+	end)
+	
+	local ABSpooky = win:Server("Spooky", "rbxassetid://13612106782")
+	
+	local Spooky = ABSpooky:Channel("Spooky")
+	
+	Spooky:Button(
+	"AutoBuild Spooky",
+	function()
+	SpookyB()
+	Noti("Auto Build", "Done Building With Spooky", 25)
+	end
+	)
+	
+	Spooky:Label("Planks Need For This Build: "..SpookyC)
+	
+	Spooky:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..SpookyPlanksBase.." Spooky Planks", 25)  
+	end)
+	
+	local ABSpookyNeon = win:Server("SpookyNeon", "rbxassetid://13612111603")
+	
+	local SpookyNeon = ABSpookyNeon:Channel("SpookyNeon")
+	
+	SpookyNeon:Button(
+	"AutoBuild SpookyNeon",
+	function()
+	SpookyNeonB()
+	Noti("Auto Build", "Done Building With SpookyNeon", 25)
+	end
+	)
+	
+	SpookyNeon:Label("Planks Need For This Build: "..SpookyNeonC)
+	
+	SpookyNeon:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..SpookyNeonPlanksBase.." SpookyNeon Planks", 25)  
+	end)
+	
+	local ABBlueSpruce = win:Server("SpookyNeon", "rbxassetid://15695156984")
+	
+	local BlueSpruce = ABBlueSpruce:Channel("BlueSpruce")
+	
+	BlueSpruce:Button(
+	"AutoBuild BlueSpruce",
+	function()
+	BlueSpruceB()
+	Noti("Auto Build", "Done Building With BlueSpruce", 25)
+	end
+	)
+	
+	BlueSpruce:Label("Planks Need For This Build: "..BlueSpruceC)
+	
+	BlueSpruce:Button(
+	"Check Current Planks On Base",
+	function()
+    Noti("Auto Build", "There are "..BlueSprucePlanksBase.." BlueSpruce Planks", 25)  
+	end)
+	
+	local ABGlass = win:Server("Glass", "")
+	
+	local Glass = ABGlass:Channel("Glass")
+	
+	Glass:Button(
+	"AutoBuild GlassPane",
+	function()
+	GlassPane1B()
+	Noti("Auto Build", "Done Building With GlassPane", 25)
+	end
+	)
+	
+	Glass:Label("GlassPane Need For This Build: "..GlassPaneC)
+	
+	Glass:Button(
+	"Check Current GlassPane1 On Base",
+	function()
+    Noti("Auto Build", "There are "..GlassPane1Base.." GlassPane1", 25)  
+	end)
+	
+	Glass:Seperator()
+	
+	Glass:Button(
+	"AutoBuild GlassPane2",
+	function()
+	GlassPane2B()
+	Noti("Auto Build", "Done Building With GlassPane2", 25)
+	end
+	)
+	
+	Glass:Label("GlassPane2 Need For This Build: "..GlassPane2C)
+	
+	Glass:Button(
+	"Check Current GlassPane2 On Base",
+	function()
+    Noti("Auto Build", "There are "..GlassPane2Base.." GlassPane2", 25)  
+	end)
+	
+	Glass:Seperator()
+	
+	Glass:Button(
+	"AutoBuild GlassPane3",
+	function()
+	GlassPane3B()
+	Noti("Auto Build", "Done Building With GlassPane3", 25)
+	end
+	)
+	
+	Glass:Label("GlassPane3 Need For This Build: "..GlassPane3C)
+	
+	Glass:Button(
+	"Check Current GlassPane3 On Base",
+	function()
+    Noti("Auto Build", "There are "..GlassPane3Base.." GlassPane3", 25)  
+	end)
+	
+	Glass:Seperator()
+	
+	Glass:Button(
+	"AutoBuild GlassPane4",
+	function()
+	GlassPane4B()
+	Noti("Auto Build", "Done Building With GlassPane4", 25)
+	end
+	)
+	
+	Glass:Label("GlassPane4 Need For This Build: "..GlassPane4C)
+	
+	Glass:Button(
+	"Check Current GlassPane4 On Base",
+	function()
+    Noti("Auto Build", "There are "..GlassPane4Base.." GlassPane4", 25)  
+	end)
+	
+	Glass:Seperator()
+	
+	Glass:Button(
+	"AutoBuild GlassDoor1",
+	function()
+	GlassDoorB()
+	Noti("Auto Build", "Done Building With GlassDoor1", 25)
+	end
+	)
+	
+	Glass:Label("GlassDoor1 Need For This Build: "..GlassDoor1C)
+	
+	Glass:Button(
+	"Check Current GlassDoor1 On Base",
+	function()
+    Noti("Auto Build", "There are "..GlassDoor1Base.." GlassDoor1", 25)  
+	end)
+	
+	
+	
+	local ABSawmill = win:Server("Sawmill", "")
+	
+	local Sawmill = ABSawmill:Channel("Sawmill")
+	
+	
+	
+	Sawmill:Button(
+	"AutoBuild Sawmill",
+	function()
+	Sawmill1B()
+	Noti("Auto Build", "Done Building With Sawmill", 25)
+	end
+	)
+	
+	Sawmill:Label("Sawmill Need For This Build: "..Sawmill1C)
+	
+	Sawmill:Button(
+	"Check Current Sawmill1 On Base",
+	function()
+    Noti("Auto Build", "There are "..Sawmill1Base.." Sawmill1", 25)  
+	end)
+	
+	Sawmill:Seperator()
+	
+	Sawmill:Button(
+	"AutoBuild Sawmill2",
+	function()
+	Sawmill2B()
+	Noti("Auto Build", "Done Building With Sawmill2", 25)
+	end
+	)
+	
+	Sawmill:Label("Sawmill2 Need For This Build: "..Sawmill2C)
+	
+	Sawmill:Button(
+	"Check Current Sawmill2 On Base",
+	function()
+    Noti("Auto Build", "There are "..Sawmill2Base.." Sawmill2", 25)  
+	end)
+	
+	Sawmill:Seperator()
+	
+	Sawmill:Button(
+	"AutoBuild Sawmill3",
+	function()
+	Sawmill3B()
+	Noti("Auto Build", "Done Building With Sawmill3", 25)
+	end
+	)
+	
+	Sawmill:Label("Sawmill3 Need For This Build: "..Sawmill3C)
+	
+	Sawmill:Button(
+	"Check Current Sawmill3 On Base",
+	function()
+    Noti("Auto Build", "There are "..Sawmill3Base.." Sawmill3", 25)  
+	end)
+	
+	Sawmill:Seperator()
+	
+	Sawmill:Button(
+	"AutoBuild Sawmill4",
+	function()
+	Sawmill4B()
+	Noti("Auto Build", "Done Building With Sawmill4", 25)
+	end
+	)
+	
+	Sawmill:Label("Sawmill4 Need For This Build: "..Sawmill4C)
+	
+	Sawmill:Button(
+	"Check Current Sawmill4 On Base",
+	function()
+    Noti("Auto Build", "There are "..Sawmill4Base.." Sawmill4", 25)  
+	end)
+	
+	Sawmill:Seperator()
+	
+	Sawmill:Button(
+	"AutoBuild Sawmill4L",
+	function()
+	Sawmill5B()
+	Noti("Auto Build", "Done Building With Sawmill4L", 25)
+	end
+	)
+	
+	Sawmill:Label("Sawmill4L Need For This Build: "..Sawmill5C)
+	
+	Sawmill:Button(
+	"Check Current Sawmill4L On Base",
+	function()
+    Noti("Auto Build", "There are "..Sawmill5Base.." Sawmill4L", 25)  
+	end)
+	
+	
+	
+	
+	local ABPaintings = win:Server("Paintings", "")
+	
+	local Paintings = ABPaintings:Channel("Paintings")
+	
+	Paintings:Button(
+	"AutoBuild Painting1",
+	function()
+	Painting1B()
+	Noti("Auto Build", "Done Building With Painting1", 25)
+	end
+	)
+	
+	Paintings:Label("Painting1 Need For This Build: "..Painting1C)
+	
+	Paintings:Button(
+	"Check Current Painting1 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting1Base.." Painting1", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting2",
+	function()
+	Painting2B()
+	Noti("Auto Build", "Done Building With Painting2", 25)
+	end
+	)
+	
+	Paintings:Label("Painting2 Need For This Build: "..Painting2C)
+	
+	Paintings:Button(
+	"Check Current Painting2 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting2Base.." Painting2", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting3",
+	function()
+	Painting3B()
+	Noti("Auto Build", "Done Building With Painting3", 25)
+	end
+	)
+	
+	Paintings:Label("Painting3 Need For This Build: "..Painting3C)
+	
+	Paintings:Button(
+	"Check Current Painting3 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting3Base.." Painting3", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting4",
+	function()
+	Painting4B()
+	Noti("Auto Build", "Done Building With Painting4", 25)
+	end
+	)
+	
+	Paintings:Label("Painting4 Need For This Build: "..Painting4C)
+	
+	Paintings:Button(
+	"Check Current Painting4 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting4Base.." Painting4", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting5",
+	function()
+	Painting5B()
+	Noti("Auto Build", "Done Building With Painting5", 25)
+	end
+	)
+	
+	Paintings:Label("Painting5 Need For This Build: "..Painting5C)
+	
+	Paintings:Button(
+	"Check Current Painting5 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting5Base.." Painting5", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting6",
+	function()
+	Painting6B()
+	Noti("Auto Build", "Done Building With Painting6", 25)
+	end
+	)
+	
+	Paintings:Label("Painting6 Need For This Build: "..Painting6C)
+	
+	Paintings:Button(
+	"Check Current Painting6 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting6Base.." Painting6", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting7",
+	function()
+	Painting7B()
+	Noti("Auto Build", "Done Building With Painting7", 25)
+	end
+	)
+	
+	Paintings:Label("Painting7 Need For This Build: "..Painting7C)
+	
+	Paintings:Button(
+	"Check Current Painting7 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting7Base.." Painting7", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting8",
+	function()
+	Painting8B()
+	Noti("Auto Build", "Done Building With Painting8", 25)
+	end
+	)
+	
+	Paintings:Label("Painting8 Need For This Build: "..Painting8C)
+	
+	Paintings:Button(
+	"Check Current Painting8 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting8Base.." Painting8", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting9",
+	function()
+	Painting9B()
+	Noti("Auto Build", "Done Building With Painting9", 25)
+	end
+	)
+	
+	Paintings:Label("Painting9 Need For This Build: "..Painting9C)
+	
+	Paintings:Button(
+	"Check Current Painting9 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting9Base.." Painting9", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting10",
+	function()
+	Painting10B()
+	Noti("Auto Build", "Done Building With Painting10", 25)
+	end
+	)
+	
+	Paintings:Label("Painting10 Need For This Build: "..Painting10C)
+	
+	Paintings:Button(
+	"Check Current Painting10 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting10Base.." Painting10", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting11",
+	function()
+	Painting11B()
+	Noti("Auto Build", "Done Building With Painting11", 25)
+	end
+	)
+	
+	Paintings:Label("Painting11 Need For This Build: "..Painting11C)
+	
+	Paintings:Button(
+	"Check Current Painting11 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting11Base.." Painting11", 25)  
+	end)
+	
+	Paintings:Seperator()
+	
+	
+	Paintings:Button(
+	"AutoBuild Painting12",
+	function()
+	Painting12B()
+	Noti("Auto Build", "Done Building With Painting12", 25)
+	end
+	)
+	
+	Paintings:Label("Painting12 Need For This Build: "..Painting12C)
+	
+	Paintings:Button(
+	"Check Current Painting12 On Base",
+	function()
+    Noti("Auto Build", "There are "..Painting12Base.." Painting12", 25)  
+	end)
+	
+	
+	local ABLights = win:Server("Lights", "")
+	
+	local Lights = ABLights:Channel("Paintings")
+	
+	
+	Lights:Button(
+	"AutoBuild Lamp1",
+	function()
+	Lamp1B()
+	Noti("Auto Build", "Done Building With Lamp1", 25)
+	end
+	)
+	
+	Lights:Label("Lamp1 Need For This Build: "..Lamp1C)
+	
+	Lights:Button(
+	"Check Current Lamp1 On Base",
+	function()
+    Noti("Auto Build", "There are "..Lamp1Base.." Lamp1", 25)  
+	end)
+	
+	Lights:Seperator()
+	
+	
+	Lights:Button(
+	"AutoBuild FloorLamp1",
+	function()
+	FloorLamp1B()
+	Noti("Auto Build", "Done Building With FloorLamp1", 25)
+	end
+	)
+	
+	Lights:Label("FloorLamp1 Need For This Build: "..FloorLamp1C)
+	
+	Lights:Button(
+	"Check Current FloorLamp1 On Base",
+	function()
+    Noti("Auto Build", "There are "..FloorLamp1Base.." FloorLamp1", 25)  
+	end)
+	
+	Lights:Seperator()
+	
+	Lights:Button(
+	"AutoBuild WallLight1",
+	function()
+	WallLight1B()
+	Noti("Auto Build", "Done Building With WallLight1", 25)
+	end
+	)
+	
+	Lights:Label("WallLight1 Need For This Build: "..WallLight1C)
+	
+	Lights:Button(
+	"Check Current WallLight1 On Base",
+	function()
+    Noti("Auto Build", "There are "..WallLight1Base.." WallLight1", 25)  
+	end)
+	
+	Lights:Seperator()
+	
+	Lights:Button(
+	"AutoBuild WallLight2",
+	function()
+	WallLight2B()
+	Noti("Auto Build", "Done Building With WallLight2", 25)
+	end
+	)
+	
+	Lights:Label("WallLight2 Need For This Build: "..WallLight2C)
+	
+	Lights:Button(
+	"Check Current WallLight2 On Base",
+	function()
+    Noti("Auto Build", "There are "..WallLight2Base.." WallLight2", 25)  
+	end)
+	
+	
+	local ABFurn = win:Server("furniture", "")
+	
+	local furniture = ABFurn:Channel("furniture")
+	
+	furniture:Button(
+	"AutoBuild Couch",
+	function()
+	CouchB()
+	Noti("Auto Build", "Done Building With Couch", 25)
+	end
+	)
+	
+	furniture:Label("Couch Need For This Build: "..CouchC)
+	
+	furniture:Button(
+	"Check Current Couch On Base",
+	function()
+    Noti("Auto Build", "There are "..CouchBase.." Couch", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild ArmChair",
+	function()
+	Chair1B()
+	Noti("Auto Build", "Done Building With ArmChair", 25)
+	end
+	)
+	
+	furniture:Label("ArmChair Need For This Build: "..Chair1C)
+	
+	furniture:Button(
+	"Check Current ArmChair On Base",
+	function()
+    Noti("Auto Build", "There are "..Chair1Base.." ArmChair", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild LoveSeat",
+	function()
+	Chair2B()
+	Noti("Auto Build", "Done Building With LoveSeat", 25)
+	end
+	)
+	
+	furniture:Label("LoveSeat Need For This Build: "..Chair2C)
+	
+	furniture:Button(
+	"Check Current LoveSeat On Base",
+	function()
+    Noti("Auto Build", "There are "..Chair2Base.." LoveSeat", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild Bed1",
+	function()
+	Bed1B()
+	Noti("Auto Build", "Done Building With Bed1", 25)
+	end
+	)
+	
+	furniture:Label("Bed1 Need For This Build: "..Bed1C)
+	
+	furniture:Button(
+	"Check Current Bed1 On Base",
+	function()
+    Noti("Auto Build", "There are "..Bed1Base.." Bed1", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild Bed2",
+	function()
+	Bed2B()
+	Noti("Auto Build", "Done Building With Bed2", 25)
+	end
+	)
+	
+	furniture:Label("Bed2 Need For This Build: "..Bed2C)
+	
+	furniture:Button(
+	"Check Current Bed2 On Base",
+	function()
+    Noti("Auto Build", "There are "..Bed2Base.." Bed2", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild Toilet",
+	function()
+	ToiletB()
+	Noti("Auto Build", "Done Building With Toilet", 25)
+	end
+	)
+	
+	furniture:Label("Toilet Need For This Build: "..ToiletC)
+	
+	furniture:Button(
+	"Check Current Toilet On Base",
+	function()
+    Noti("Auto Build", "There are "..ToiletBase.." Toilet", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild ToiletGold",
+	function()
+	ToiletGoldB()
+	Noti("Auto Build", "Done Building With ToiletGold", 25)
+	end
+	)
+	
+	furniture:Label("ToiletGold Need For This Build: "..ToiletGoldC)
+	
+	furniture:Button(
+	"Check Current ToiletGold On Base",
+	function()
+    Noti("Auto Build", "There are "..ToiletGoldBase.." ToiletGold", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild Stove",
+	function()
+	StoveB()
+	Noti("Auto Build", "Done Building With Stove", 25)
+	end
+	)
+	
+	furniture:Label("Stove Need For This Build: "..StoveC)
+	
+	furniture:Button(
+	"Check Current Stove On Base",
+	function()
+    Noti("Auto Build", "There are "..StoveBase.." Stove", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild Dishwasher",
+	function()
+	DishwasherB()
+	Noti("Auto Build", "Done Building With Dishwasher", 25)
+	end
+	)
+	
+	furniture:Label("Dishwasher Need For This Build: "..DishwasherC)
+	
+	furniture:Button(
+	"Check Current Dishwasher On Base",
+	function()
+    Noti("Auto Build", "There are "..DishwasherBase.." Dishwasher", 25)  
+	end)
+	
+	furniture:Seperator()
+	
+	furniture:Button(
+	"AutoBuild Fridge",
+	function()
+	FridgeB()
+	Noti("Auto Build", "Done Building With Fridge", 25)
+	end
+	)
+	
+	furniture:Label("Fridge Need For This Build: "..FridgeC)
+	
+	furniture:Button(
+	"Check Current Fridge On Base",
+	function()
+    Noti("Auto Build", "There are "..FridgeBase.." Fridge", 25)  
+	end)
+	
+	
+	
+	local ABConveyors = win:Server("Conveyors", "")
+	
+	local Conveyors = ABConveyors:Channel("Conveyors")
+	
+	Conveyors:Button(
+	"AutoBuild StraightConveyor",
+	function()
+	StraightConveyorB()
+	Noti("Auto Build", "Done Building With StraightConveyor", 25)
+	end
+	)
+	
+	Conveyors:Label("StraightConveyor Need For This Build: "..StraightConveyorC)
+	
+	Conveyors:Button(
+	"Check Current Conveyors On Base",
+	function()
+    Noti("Auto Build", "There are "..StraightConveyorBase.." Conveyors", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild TightTurnConveyor",
+	function()
+	TightTurnConveyorB()
+	Noti("Auto Build", "Done Building With TightTurnConveyor", 25)
+	end
+	)
+	
+	Conveyors:Label("TightTurnConveyor Need For This Build: "..TightTurnConveyorC)
+	
+	Conveyors:Button(
+	"Check Current TightTurnConveyor On Base",
+	function()
+    Noti("Auto Build", "There are "..TightTurnConveyorBase.." TightTurnConveyor", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild TiltConveyor",
+	function()
+	TiltConveyorB()
+	Noti("Auto Build", "Done Building With TiltConveyor", 25)
+	end
+	)
+	
+	Conveyors:Label("TiltConveyor Need For This Build: "..TiltConveyorC)
+	
+	Conveyors:Button(
+	"Check Current TiltConveyor On Base",
+	function()
+    Noti("Auto Build", "There are "..TiltConveyorBase.." TiltConveyor", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild ConveyorFunnel",
+	function()
+	ConveyorFunnelB()
+	Noti("Auto Build", "Done Building With ConveyorFunnel", 25)
+	end
+	)
+	
+	Conveyors:Label("ConveyorFunnel Need For This Build: "..ConveyorFunnelC)
+	
+	Conveyors:Button(
+	"Check Current ConveyorFunnel On Base",
+	function()
+    Noti("Auto Build", "There are "..ConveyorFunnelBase.." ConveyorFunnel", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild ConveyorSwitch",
+	function()
+	ConveyorSwitchB()
+	Noti("Auto Build", "Done Building With ConveyorSwitch", 25)
+	end
+	)
+	
+	Conveyors:Label("ConveyorSwitch Need For This Build: "..ConveyorSwitchC)
+	
+	Conveyors:Button(
+	"Check Current ConveyorSwitch On Base",
+	function()
+    Noti("Auto Build", "There are "..ConveyorSwitchBase.." ConveyorSwitch", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild LogSweeper",
+	function()
+	LogSweeperB()
+	Noti("Auto Build", "Done Building With LogSweeper", 25)
+	end
+	)
+	
+	Conveyors:Label("LogSweeper Need For This Build: "..LogSweeperC)
+	
+	Conveyors:Button(
+	"Check Current LogSweeper On Base",
+	function()
+    Noti("Auto Build", "There are "..LogSweeperBase.." LogSweeper", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild StraightSwitchConveyorRight",
+	function()
+	StraightSwitchConveyorRightB()
+	Noti("Auto Build", "Done Building With StraightSwitchConveyorRight", 25)
+	end
+	)
+	
+	Conveyors:Label("StraightSwitchConveyorRight Need For This Build: "..StraightSwitchConveyorRightC)
+	
+	Conveyors:Button(
+	"Check Current StraightSwitchConveyorRight On Base",
+	function()
+    Noti("Auto Build", "There are "..StraightSwitchConveyorRightBase.." StraightSwitchConveyorRight", 25)  
+	end)
+	
+	Conveyors:Seperator()
+	
+	Conveyors:Button(
+	"AutoBuild StraightSwitchConveyorLeft",
+	function()
+	StraightSwitchConveyorLeftB()
+	Noti("Auto Build", "Done Building With StraightSwitchConveyorLeft", 25)
+	end
+	)
+	
+	Conveyors:Label("StraightSwitchConveyorLeft Need For This Build: "..StraightSwitchConveyorLeftC)
+	
+	Conveyors:Button(
+	"Check Current StraightSwitchConveyorLeft On Base",
+	function()
+    Noti("Auto Build", "There are "..StraightSwitchConveyorLeftBase.." StraightSwitchConveyorLeft", 25)  
+	end)
+	
+	
+	
+	local ABCars = win:Server("Cars", "")
+	
+	local Cars = ABCars:Channel("Cars")
+	
+	Cars:Button(
+	"AutoBuild Pickup1",
+	function()
+	Pickup1B()
+	Noti("Auto Build", "Done Building With Pickup1", 25)
+	end
+	)
+	
+	Cars:Label("Pickup1 Need For This Build: "..Pickup1C)
+	
+	Cars:Button(
+	"Check Current Pickup1 On Base",
+	function()
+    Noti("Auto Build", "There are "..Pickup1Base.." Pickup1", 25)  
+	end)
+	
+	Cars:Seperator()
+	
+	Cars:Button(
+	"AutoBuild UtilityTruck2",
+	function()
+	UtilityTruck2B()
+	Noti("Auto Build", "Done Building With UtilityTruck2", 25)
+	end
+	)
+	
+	Cars:Label("UtilityTruck2 Need For This Build: "..UtilityTruck2C)
+	
+	Cars:Button(
+	"Check Current UtilityTruck2 On Base",
+	function()
+    Noti("Auto Build", "There are "..UtilityTruck2Base.." UtilityTruck2", 25)  
+	end)
+
+	Cars:Seperator()
+	
+	Cars:Button(
+	"AutoBuild UtilityTruck",
+	function()
+	UtilityTruckB()
+	Noti("Auto Build", "Done Building With UtilityTruck", 25)
+	end
+	)
+	
+	Cars:Label("UtilityTruck Need For This Build: "..UtilityTruckC)
+	
+	Cars:Button(
+	"Check Current UtilityTruck On Base",
+	function()
+    Noti("Auto Build", "There are "..UtilityTruckBase.." UtilityTruck", 25)  
+	end)
+	
+	Cars:Seperator()
+	
+	Cars:Button(
+	"AutoBuild Trailer2",
+	function()
+	Trailer2B()
+	Noti("Auto Build", "Done Building With Trailer2", 25)
+	end
+	)
+	
+	Cars:Label("Trailer2 Need For This Build: "..Trailer2C)
+	
+	Cars:Button(
+	"Check Current Trailer2 On Base",
+	function()
+    Noti("Auto Build", "There are "..Trailer2Base.." Trailer2", 25)  
+	end)
+	
+	Cars:Seperator()
+	
+	Cars:Button(
+	"AutoBuild Sleigh",
+	function()
+	SleighB()
+	Noti("Auto Build", "Done Building With Sleigh", 25)
+	end
+	)
+	
+	Cars:Label("Sleigh Need For This Build: "..SleighC)
+	
+	Cars:Button(
+	"Check Current Sleigh On Base",
+	function()
+    Noti("Auto Build", "There are "..SleighBase.." Sleigh", 25)  
+	end)
+	
+	Cars:Seperator()
+	
+	Cars:Button(
+	"AutoBuild Snowmobile",
+	function()
+	SnowmobileB()
+	Noti("Auto Build", "Done Building With Snowmobile", 25)
+	end
+	)
+	
+	Cars:Label("Snowmobile Need For This Build: "..SnowmobileC)
+	
+	Cars:Button(
+	"Check Current Snowmobile On Base",
+	function()
+    Noti("Auto Build", "There are "..SnowmobileBase.." Snowmobile", 25)  
+	end)
+	
+	Cars:Seperator()
+	
+	Cars:Button(
+	"AutoBuild SmallTrailer",
+	function()
+	SmallTrailerB()
+	Noti("Auto Build", "Done Building With SmallTrailer", 25)
+	end
+	)
+	
+	Cars:Label("SmallTrailer Need For This Build: "..SmallTrailerC)
+	
+	Cars:Button(
+	"Check Current SmallTrailer On Base",
+	function()
+    Noti("Auto Build", "There are "..SmallTrailerBase.." SmallTrailer", 25)  
+	end)
+	
+	
+	local ABLogic = win:Server("Logic", "")
+	
+	local Logic = ABLogic:Channel("Logic")
+	
+	
+	Logic:Button(
+	"AutoBuild ChopSaw",
+	function()
+	ChopSawB()
+	Noti("Auto Build", "Done Building With ChopSaw", 25)
+	end
+	)
+	
+	Logic:Label("ChopSaw Need For This Build: "..ChopSawC)
+	
+	Logic:Button(
+	"Check Current ChopSaw On Base",
+	function()
+    Noti("Auto Build", "There are "..ChopSawBase.." ChopSaw", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild FireworkLauncher",
+	function()
+	FireworkLauncherB()
+	Noti("Auto Build", "Done Building With FireworkLauncher", 25)
+	end
+	)
+	
+	Logic:Label("FireworkLauncher Need For This Build: "..FireworkLauncherC)
+	
+	Logic:Button(
+	"Check Current FireworkLauncher On Base",
+	function()
+    Noti("Auto Build", "There are "..FireworkLauncherBase.." FireworkLauncher", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild WoodChecker",
+	function()
+	WoodCheckerB()
+	Noti("Auto Build", "Done Building With WoodChecker", 25)
+	end
+	)
+	
+	Logic:Label("WoodChecker Need For This Build: "..WoodCheckerC)
+	
+	Logic:Button(
+	"Check Current WoodChecker On Base",
+	function()
+    Noti("Auto Build", "There are "..WoodCheckerBase.." WoodChecker", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild Laser",
+	function()
+	LaserB()
+	Noti("Auto Build", "Done Building With Laser", 25)
+	end
+	)
+	
+	Logic:Label("Laser Need For This Build: "..LaserC)
+	
+	Logic:Button(
+	"Check Current Laser On Base",
+	function()
+    Noti("Auto Build", "There are "..LaserBase.." Laser", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild LaserReceiver",
+	function()
+	LaserReceiverB()
+	Noti("Auto Build", "Done Building With LaserReceiver", 25)
+	end
+	)
+	
+	Logic:Label("LaserReceiver Need For This Build: "..LaserReceiverC)
+	
+	Logic:Button(
+	"Check Current LaserReceiver On Base",
+	function()
+    Noti("Auto Build", "There are "..LaserReceiverBase.." LaserReceiver", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild GateNOT",
+	function()
+	GateNOTB()
+	Noti("Auto Build", "Done Building With GateNOT", 25)
+	end
+	)
+	
+	Logic:Label("GateNOT Need For This Build: "..GateNOTC)
+	
+	Logic:Button(
+	"Check Current GateNOT On Base",
+	function()
+    Noti("Auto Build", "There are "..GateNOTBase.." GateNOT", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild GateOR",
+	function()
+	GateORB()
+	Noti("Auto Build", "Done Building With GateOR", 25)
+	end
+	)
+	
+	Logic:Label("GateOR Need For This Build: "..GateORC)
+	
+	Logic:Button(
+	"Check Current GateOR On Base",
+	function()
+    Noti("Auto Build", "There are "..GateORBase.." GateOR", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild GateAND",
+	function()
+	GateANDB()
+	Noti("Auto Build", "Done Building With GateAND", 25)
+	end
+	)
+	
+	Logic:Label("GateAND Need For This Build: "..GateANDC)
+	
+	Logic:Button(
+	"Check Current GateAND On Base",
+	function()
+    Noti("Auto Build", "There are "..GateANDBase.." GateAND", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild GateXOR",
+	function()
+	GateXORB()
+	Noti("Auto Build", "Done Building With GateXOR", 25)
+	end
+	)
+	
+	Logic:Label("GateXOR Need For This Build: "..GateXORC)
+	
+	Logic:Button(
+	"Check Current GateXOR On Base",
+	function()
+    Noti("Auto Build", "There are "..GateXORBase.." GateXOR", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild SignalSustain",
+	function()
+	SignalSustainB()
+	Noti("Auto Build", "Done Building With SignalSustain", 25)
+	end
+	)
+	
+	Logic:Label("SignalSustain Need For This Build: "..SignalSustainC)
+	
+	Logic:Button(
+	"Check Current SignalSustain On Base",
+	function()
+    Noti("Auto Build", "There are "..SignalSustainBase.." SignalSustain", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild SignalDelay",
+	function()
+	SignalDelayB()
+	Noti("Auto Build", "Done Building With SignalDelay", 25)
+	end
+	)
+	
+	Logic:Label("SignalDelay Need For This Build: "..SignalDelayC)
+	
+	Logic:Button(
+	"Check Current SignalDelay On Base",
+	function()
+    Noti("Auto Build", "There are "..SignalDelayBase.." SignalDelay", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild ClockSwitch",
+	function()
+	ClockSwitchB()
+	Noti("Auto Build", "Done Building With ClockSwitch", 25)
+	end
+	)
+	
+	Logic:Label("ClockSwitch Need For This Build: "..ClockSwitchC)
+	
+	Logic:Button(
+	"Check Current ClockSwitch On Base",
+	function()
+    Noti("Auto Build", "There are "..ClockSwitchBase.." ClockSwitch", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild PressurePlate",
+	function()
+	PressurePlateB()
+	Noti("Auto Build", "Done Building With PressurePlate", 25)
+	end
+	)
+	
+	Logic:Label("PressurePlate Need For This Build: "..PressurePlateC)
+	
+	Logic:Button(
+	"Check Current PressurePlate On Base",
+	function()
+    Noti("Auto Build", "There are "..PressurePlateBase.." PressurePlate", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild Hatch",
+	function()
+	HatchB()
+	Noti("Auto Build", "Done Building With Hatch", 25)
+	end
+	)
+	
+	Logic:Label("Hatch Need For This Build: "..HatchC)
+	
+	Logic:Button(
+	"Check Current Hatch On Base",
+	function()
+    Noti("Auto Build", "There are "..HatchBase.." Hatch", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild Lever0",
+	function()
+	Lever0B()
+	Noti("Auto Build", "Done Building With Lever0", 25)
+	end
+	)
+	
+	Logic:Label("Lever0 Need For This Build: "..Lever0C)
+	
+	Logic:Button(
+	"Check Current Lever0 On Base",
+	function()
+    Noti("Auto Build", "There are "..Lever0Base.." Lever0", 25)  
+	end)
+	
+	Logic:Seperator()
+	
+	Logic:Button(
+	"AutoBuild Button0",
+	function()
+	Button0B()
+	Noti("Auto Build", "Done Building With Button0", 25)
+	end
+	)
+	
+	Logic:Label("Button0 Need For This Build: "..Button0C)
+	
+	Logic:Button(
+	"Check Current Button0 On Base",
+	function()
+    Noti("Auto Build", "There are "..Button0Base.." Button0", 25)  
+	end)
+	
+	local ABSettings = win:Server("SETTINGS", "rbxassetid://6031280882")
+	
+	local Settings = ABSettings:Channel("SETTINGS")
+	
+	local PlayerList = {}
+	for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+	table.insert(PlayerList,v.Name)
+	end
+	game.Players.ChildAdded:Connect(function(player)
+	local name = player.Name
+	table.insert(PlayerList,name)
+	end)
+	game.Players.ChildRemoved:Connect(function(player)
+	local name = player.Name
+	for i,v in pairs(PlayerList)do
+	if v == name then  
+	table.remove(PlayerList,i)
+	end
+	end
+	end)
+	
+	Settings:Dropdown(
+	"Select A Wood Base",
+	PlayerList,
+	function(value)
+	WoodBase = value
+	end)
+	
+	Settings:Button(
+	"Load Wood Counter",
+	function()
+	ItemChecker()
+	Noti("Auto Build", "Items Have Been Counted", 5)
+	end
+	)
+	    ]]	    
+	    		loadstring(game:HttpGet "https://raw.githubusercontent.com/666TranZit666/Interject/main/v1")()
+		
